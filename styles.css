@@ -91,3 +91,20 @@ form button {
 .text-center {
     text-align: center;
 }
+
+.admin-actions {
+    margin-bottom: 16px;
+}
+
+.admin-actions hr {
+    margin: 48px 0 32px;
+}
+
+.admin-actions button {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.admin-actions .red {
+    background: #E45950;
+}
