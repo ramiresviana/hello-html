@@ -1,3 +1,51 @@
 body {
-    background: #ccc;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 48px 32px 32px;
+}
+
+main {
+    margin-bottom: 32px;
+    padding: 0 32px;
+}
+
+a {
+    color: black;
+}
+
+article {
+    display: inline-block;
+    margin-bottom: 32px;
+}
+
+article img {
+    height: 160px;
+    width: 240px;
+    margin-right: 16px;
+    float: left;
+    background: #ddd;
+}
+
+@media (max-width: 480px) {
+    article img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+footer {
+    margin-bottom: 32px;
+    padding: 0 32px;
+}
+
+button {
+    padding: 16px 20px;
+    background: #2D88F2;
+    border: none;
+    color: white;
 }
