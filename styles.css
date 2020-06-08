@@ -55,3 +55,39 @@ button {
     height: 600px;
     background: #ddd;
 }
+
+form {
+    padding: 64px 48px;
+    background: #ddd;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label, form input {
+    display: block;
+    font-size: 16px;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background: white;
+    border: none;
+}
+
+form button {
+    width: 100%;
+    margin-top: 32px;
+    font-size: 16px;
+}
+
+.text-center {
+    text-align: center;
+}
